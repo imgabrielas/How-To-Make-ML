@@ -11,7 +11,6 @@ No shared code or dependencies between projects.
 | Project | Model | Description |
 |---|---|---|
 | [neuron/](neuron/) | Logistic regression (single neuron) | A single artificial neuron implemented from scratch with NumPy, trained with gradient descent, with an animated visualization of the decision boundary converging during training. |
-
-![Neuron training animation](neuron/figures/neuron_training.gif)
+| [KNN_Classifier/](KNN_Classifier/) | K-Nearest Neighbors | A simple 3-feature, binary-label classification exercise using scikit-learn's `KNeighborsClassifier`, with an interactive 3D Plotly visualization and a comparison of predictions across different `k` values. |
 
 More model-focused projects will be added here over time, each in its own subdirectory.
