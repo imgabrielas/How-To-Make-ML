@@ -1,8 +1,8 @@
 # How To Make ML
 
 A collection of small, self-contained machine learning exercises. Each
-subdirectory is an specific exercise focused on exactly one model —
-implemented from scratch to build a real understanding of how it works.
+subdirectory is an specific exercise focused on one model —
+implemented from scratch to build understanding of how it works.
 
 No shared code or dependencies between projects.
 
