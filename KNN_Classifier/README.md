@@ -18,3 +18,7 @@ A simple K-Nearest Neighbors classification exercise using scikit-learn.
 ## Takeaway
 
 Changing `n_neighbors` from 1 to 4 changed the predicted labels for the same new points, illustrating how sensitive KNN is to the choice of `k`.
+
+## Figures
+
+The [figures](figures) folder contains static screenshots of the 3D scatter plot (`knn_k1.png`, `knn_k4.png`) as well as [knn_k1.gif](figures/knn_k1.gif), a rotating view of the same coordinate system. Since a static image can hide how the points are arranged in 3D space, the gif rotates the plot so the depth and clustering of the points are easier to see.
