@@ -20,13 +20,3 @@ A K-Means clustering exercise that groups ~32,000 Spotify tracks by audio charac
 ## Takeaway
 
 The elbow and silhouette analyses both support `k=4` as a reasonable number of clusters. The resulting groups separate tracks along recognizable audio dimensions (e.g. high-energy/danceable vs. acoustic/instrumental), and track popularity varies noticeably across clusters — showing that unsupervised grouping on audio features alone picks up patterns that correlate with how tracks perform.
-
-## Figures
-
-The [figures](figures) folder contains the plots generated in the notebook:
-
-- [Figure1 Elbow Method for Choosing the Number of Clusters.png](figures/Figure1%20Elbow%20Method%20for%20Choosing%20the%20Number%20of%20Clusters.png)
-- [Figure 2 Silhouette Scores for Different Numbers of Clusters.png](figures/Figure%202%20Silhouette%20Scores%20for%20Different%20Numbers%20of%20Clusters.png)
-- [Figure 3 K-Means Clusters (PCA Projection).png](figures/Figure%203%20K-Means%20Clusters%20%28PCA%20Projection%29.png)
-- [Figure 4 Track Popularity by Cluster.png](figures/Figure%204%20Track%20Popularity%20by%20Cluster.png)
-- [Figure 5 Number of Songs in Each Cluster.png](figures/Figure%205%20Number%20of%20Songs%20in%20Each%20Cluster.png)
