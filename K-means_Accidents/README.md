@@ -20,14 +20,3 @@ A K-Means clustering exercise that groups ~100,000 US traffic accident records b
 ## Takeaway
 
 The elbow and silhouette analyses support `k=2` as a reasonable number of clusters, splitting accidents primarily along geography and distance rather than severity — severity distributions look similar across clusters, while cluster sizes and locations differ noticeably.
-
-## Figures
-
-The [figures](figures) folder contains the plots generated in the notebook:
-
-- [Elbow Method.png](figures/Elbow%20Method.png)
-- [Silhouette Scores.png](figures/Silhouette%20Scores.png)
-- [Elbow Method & Silhouette Scores.png](figures/Elbow%20Method%20%26%20Silhouette%20Scores.png)
-- [K-Means Clusters (PCA Projection).png](figures/K-Means%20Clusters%20%28PCA%20Projection%29.png)
-- [Severity by Cluster.png](figures/Severity%20by%20Cluster.png)
-- [Number of Accidents by Cluster.png](figures/Number%20of%20Accidents%20by%20Cluster.png)
