@@ -1,0 +1,21 @@
+# Universal packages — used across every project in this repo
+pandas==2.3.3
+matplotlib==3.10.9
+scikit-learn==1.7.2
+
+# neuron/ — Logistic regression (single neuron)
+numpy==2.2.6
+ipython==8.39.0
+
+# KNN_Classifier/ — K-Nearest Neighbors
+seaborn==0.13.2
+
+# K-means_Spotify/ — K-Means Clustering
+plotly==6.9.0
+
+# K-means_Accidents/ — K-Means Clustering
+plotly==6.9.0
+
+# NFM/ — Non-negative Matrix Factorization
+numpy==2.2.6
+seaborn==0.13.2
