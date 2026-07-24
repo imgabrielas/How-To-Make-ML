@@ -17,7 +17,3 @@ An exercise in decomposing image datasets into non-negative components using sci
 4. Repeats on a larger 100-image sample flattened to 784-length vectors, and visualizes the resulting components.
 
 [notebook.ipynb](notebook.ipynb) — currently empty; the exercise notebook to be filled in, likely applying NMF to the Olivetti faces dataset.
-
-## Takeaway
-
-TBD — `notebook.ipynb` hasn't been written yet.
