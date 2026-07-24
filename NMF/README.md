@@ -16,4 +16,4 @@ An exercise in decomposing image datasets into non-negative components using sci
 3. Reshapes and visualizes the learned components as images.
 4. Repeats on a larger 100-image sample flattened to 784-length vectors, and visualizes the resulting components.
 
-[notebook.ipynb](notebook.ipynb) — the exercise notebook, applied NMF to the Olivetti faces dataset, similarto exercise.
+[notebook.ipynb](notebook.ipynb) — the exercise notebook, applied NMF to the Olivetti faces dataset, similar to exercise.
