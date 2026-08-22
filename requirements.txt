@@ -16,6 +16,9 @@ plotly==6.9.0
 # K-means_Accidents/ — K-Means Clustering
 plotly==6.9.0
 
-# NFM/ — Non-negative Matrix Factorization
+# NMF/ — Non-negative Matrix Factorization
 numpy==2.2.6
+seaborn==0.13.2
+
+# tSNE/ — t-SNE
 seaborn==0.13.2
