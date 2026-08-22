@@ -22,6 +22,6 @@ pip install -r requirements.txt
 | [K-means_Spotify/](K-means_Spotify/) | K-Means Clustering | Clusters ~32,000 Spotify tracks by 12 standardized audio features using scikit-learn's `KMeans`, choosing `k` via the elbow method and silhouette score, then visualizing clusters with a PCA projection. |
 | [K-means_Accidents/](K-means_Accidents/) | K-Means Clustering | Clusters ~100,000 US traffic accident records by severity and location/distance features using scikit-learn's `KMeans`, choosing `k` via the elbow method and silhouette score, then visualizing clusters with a PCA projection. |
 | [NMF/](NMF/) | Non-negative Matrix Factorization | Decomposes MNIST digit and Olivetti face images into non-negative components using scikit-learn's `NMF`, visualizing the learned components as images. |
-| [tSNE/](tSNE/) | t-SNE | Projects ~4,000 ANSUR body-measurement records (99 features) into 2D with scikit-learn's `TSNE` to explore clustering in body shapes, coloring the embedding by individual features, `BMI_class`, and `Height_class`. |
+| [tSNE/](tSNE/) | t-SNE | Projects ANSUR body-measurement records (99 features) into 2D with scikit-learn's `TSNE` to explore clustering in body shapes, coloring the embedding by individual features, `BMI_class`, and `Height_class`. |
 
 More model-focused projects will be added here over time, each in its own subdirectory.
