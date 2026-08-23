@@ -19,4 +19,14 @@ t-SNE is a nonlinear dimensionality-reduction technique for visualizing high-dim
 
 ## Takeaway
 
-The uncolored embedding forms one large, undifferentiated cluster — there's no obvious separation into distinct body-shape groups. Coloring by individual measurements or by `BMI_class` shows those values vary smoothly across the embedding rather than aligning with any cluster boundaries.
+The uncolored embedding forms one large, undifferentiated cluster — there's no obvious separation into distinct body-shape groups. Coloring by individual measurements or by `BMI_class` shows those values vary smoothly across the embedding rather than aligning with any cluster boundaries. Coloring by `Height_class` does line up with the horizontal axis: tall people cluster to the right, small people to the left, normal-height in the middle — height is the main driver of variance the embedding picks up on.
+
+## Feature selection (in progress)
+
+Continuing on from the t-SNE result, the notebook now explores trimming `df_num` down with `VarianceThreshold`:
+
+- A first pass at `threshold=1` on the raw features doesn't drop anything — the mask keeps all columns, since threshold=1 isn't meaningful on unnormalized measurements with wildly different scales.
+- Normalizing by the column mean (`df_num / df_num.mean()`) before fitting, with a much smaller `threshold=0.005`, drops the feature count from 95 to 29 — this is the useful pass, since normalization puts variance on a comparable scale across features before thresholding.
+- The resulting 29-feature `reduced_df` is then checked for multicollinearity: a correlation matrix (`.corr()`), visualized as a heatmap (masking the upper triangle to avoid showing duplicate/self correlations), and a separate absolute-value correlation matrix (`tri_df`) with the upper triangle masked out, as a first step toward identifying and dropping highly correlated feature pairs.
+
+This part of the notebook is still being worked on — the next step (not yet written) is presumably picking a correlation cutoff and dropping one feature from each highly-correlated pair.
