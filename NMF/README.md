@@ -2,6 +2,10 @@
 
 An exercise in decomposing image datasets into non-negative components using scikit-learn's `NMF`.
 
+![MNIST NMF reconstruction](figures/mnist_nmf_reconstruction.gif)
+
+![Olivetti faces NMF reconstruction](figures/nmf_reconstruction.gif)
+
 ## Data
 
 - [mnist.npz](mnist.npz) — the standard MNIST handwritten digit dataset (28x28 grayscale images), loaded with `np.load` into `X_train`/`y_train`/`X_test`/`y_test`.

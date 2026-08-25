@@ -1,0 +1,160 @@
+"""
+Animated NMF reconstruction visualization for a single MNIST digit.
+
+Shows how a chosen digit image from example.ipynb's MNIST sample is rebuilt
+as a weighted sum of NMF learned "parts", added one at a time in order of
+contribution (largest weight first). Ends with a gallery of every learned
+component.
+
+Requirements:
+    pip install numpy matplotlib scikit-learn pillow
+
+Dataset:
+    mnist.npz
+
+Outputs:
+    figures/mnist_nmf_reconstruction.gif
+    figures/mnist_nmf_components_gallery.png
+"""
+
+import os
+import argparse
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation, PillowWriter
+from sklearn.decomposition import NMF
+
+RNG_SEED = 42
+N_COMPONENTS = 8
+N_TRAIN_IMAGES = 100
+IMAGE_SHAPE = (28, 28)
+HOLD_FRAMES = 5
+
+CMAP_RECON = "gray"
+CMAP_PART = "viridis"
+COLOR_BAR_USED = "#7648f4"
+COLOR_BAR_UNUSED = "#e6e6e6"
+
+HERE = os.path.dirname(__file__)
+
+
+def load_data(n_train_images):
+    with np.load(os.path.join(HERE, "mnist.npz")) as data:
+        X_train = data["x_train"]
+
+    X = X_train[:n_train_images].reshape((n_train_images, 28 * 28)).astype(float)
+    return X
+
+
+def fit_nmf(X, n_components, seed):
+    model = NMF(n_components=n_components, random_state=seed)
+    W = model.fit_transform(X)
+    H = model.components_
+    return W, H
+
+
+def build_animation(image_index, X, W, H, out_path):
+    image = X[image_index].reshape(IMAGE_SHAPE)
+    weights = W[image_index]
+    order = np.argsort(weights)[::-1]
+    n_components = len(order)
+
+    full_recon = (weights @ H).reshape(IMAGE_SHAPE)
+    vmax = max(image.max(), full_recon.max())
+
+    fig = plt.figure(figsize=(13, 5))
+    ax_orig = fig.add_subplot(141)
+    ax_recon = fig.add_subplot(142)
+    ax_part = fig.add_subplot(143)
+    ax_bar = fig.add_subplot(144)
+
+    n_frames = n_components + HOLD_FRAMES
+
+    def update(frame):
+        step = min(frame, n_components)
+        used = order[:step]
+
+        cumulative = (weights[used] @ H[used]).reshape(IMAGE_SHAPE) if step else np.zeros(IMAGE_SHAPE)
+
+        ax_orig.cla()
+        ax_orig.imshow(image, cmap=CMAP_RECON, vmin=0, vmax=vmax)
+        ax_orig.set_title("Original")
+        ax_orig.axis("off")
+
+        ax_recon.cla()
+        ax_recon.imshow(cumulative, cmap=CMAP_RECON, vmin=0, vmax=vmax)
+        ax_recon.set_title(f"Reconstruction\n{step}/{n_components} parts")
+        ax_recon.axis("off")
+
+        ax_part.cla()
+        if step < n_components:
+            comp_idx = order[step]
+            part = H[comp_idx].reshape(IMAGE_SHAPE)
+            ax_part.imshow(part, cmap=CMAP_PART)
+            ax_part.set_title(f"+ Part #{comp_idx}\nweight={weights[comp_idx]:.3f}")
+        else:
+            ax_part.imshow(np.zeros(IMAGE_SHAPE), cmap=CMAP_PART)
+            ax_part.set_title("Done")
+        ax_part.axis("off")
+
+        ax_bar.cla()
+        colors = [COLOR_BAR_USED if i in used else COLOR_BAR_UNUSED for i in range(n_components)]
+        ax_bar.bar(range(n_components), weights, color=colors)
+        ax_bar.set_title("Part weights used")
+        ax_bar.set_xlabel("Component #")
+        ax_bar.set_ylabel("Weight")
+        ax_bar.set_xlim(-1, n_components)
+
+        fig.suptitle(f"NMF Reconstruction — MNIST digit #{image_index}", fontsize=14)
+
+    anim = FuncAnimation(fig, update, frames=n_frames, interval=600, repeat=True)
+    anim.save(out_path, writer=PillowWriter(fps=2))
+    plt.close(fig)
+    print(f"Saved {out_path}")
+
+
+def plot_components_gallery(H, out_path):
+    n_components = H.shape[0]
+    n_cols = int(np.ceil(np.sqrt(n_components)))
+    n_rows = int(np.ceil(n_components / n_cols))
+
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(2 * n_cols, 2 * n_rows))
+
+    for i, ax in enumerate(np.atleast_1d(axes).flat):
+        if i < n_components:
+            ax.imshow(H[i].reshape(IMAGE_SHAPE), cmap=CMAP_PART)
+        ax.axis("off")
+
+    fig.suptitle("NMF Learned Components (Parts) — MNIST", fontsize=16)
+    plt.tight_layout()
+    fig.savefig(out_path, dpi=150)
+    plt.close(fig)
+    print(f"Saved {out_path}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--image-index", type=int, default=0, help="Index of the digit to reconstruct (0-based, within the training sample)")
+    parser.add_argument("--n-components", type=int, default=N_COMPONENTS, help="Number of NMF components to learn")
+    parser.add_argument("--n-train-images", type=int, default=N_TRAIN_IMAGES, help="Number of MNIST images to fit NMF on")
+    args = parser.parse_args()
+
+    figures_dir = os.path.join(HERE, "figures")
+    os.makedirs(figures_dir, exist_ok=True)
+
+    X = load_data(args.n_train_images)
+    W, H = fit_nmf(X, args.n_components, RNG_SEED)
+
+    build_animation(
+        args.image_index,
+        X,
+        W,
+        H,
+        os.path.join(figures_dir, "mnist_nmf_reconstruction.gif"),
+    )
+
+    plot_components_gallery(H, os.path.join(figures_dir, "mnist_nmf_components_gallery.png"))
+
+
+if __name__ == "__main__":
+    main()

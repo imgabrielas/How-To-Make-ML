@@ -4,3 +4,6 @@ seaborn==0.13.2
 scikit-learn==1.7.2
 keras==3.12.3
 tensorflow==2.21.0
+matplotlib==3.11.1
+scipy==1.18.0
+pillow==12.3.0
