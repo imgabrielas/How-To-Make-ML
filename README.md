@@ -1,5 +1,7 @@
 # How To Make ML
 
+![Visualizations from this repo](visualizations_banner.gif)
+
 A collection of small, self-contained machine learning exercises. Each
 subdirectory is an specific exercise focused on one model —
 implemented from scratch to build understanding of how it works.
