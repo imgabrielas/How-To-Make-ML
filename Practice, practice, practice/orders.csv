@@ -1,0 +1,309 @@
+order_id,order_date,customer_id,city,category,product,quantity,unit_price,discount,payment_method,status,delivery_days
+1000,2026-07-16,C027,Wrocław,Elektronika,Monitor,4.0,"899,00 zł",0.05,,shipped,6.0
+1001,2026-06-03,C008,Warszawa,Sport,Bidon,2.0,39,0.1,Karta,delivered,6.0
+1002,2026-05-16,C014, poznań,Sport,Hantle,1.0,159,0.0,Karta,delivered,6.0
+1003,2026-01-21,C059,Gdańsk,Sport,Hantle,4.0,159,0.0,przelew,delivered,1.0
+1004,2026-08-12,C041,Kraków,Sport,Mata do jogi,500.0,89,0.2,BLIK,delivered,4.0
+1005,2026-05-19,C008,Kraków,Książki,Powieść,2.0,45,0.2,przelew,delivered,6.0
+1006,2026-01-30,C019,KRAKÓW,Sport,Bidon,5.0,39,0.2,BLIK,delivered,5.0
+1007,07/09/2026,C012,Poznań,Sport,Mata do jogi,4.0,89,0.0,Karta,delivered,6.0
+1008,2026-06-01,C035,wrocław ,Sport,Hantle,1.0,159,0.05,przelew,cancelled,4.0
+1009,2026-06-22,C039,Wrocław,Elektronika,Monitor,3.0,899,0.05,karta,delivered,4.0
+1010,2026-03-24,C025,Wrocław,Książki,Powieść,2.0,"45,00 zł",0.2,BLIK,returned,3.0
+1011,2026-02-07,C034,,Dom,Kubek,4.0,29,0.0,,delivered,2.0
+1012,2026-02-01,C006,Gdańsk,Dom,Lampa,3.0,129,0.2,przelew,returned,2.0
+1013,2026-05-29,C027,wrocław ,Dom,Poduszka,2.0,59,0.05,BLIK,returned,1.0
+1014,2026-04-12,C058,KRAKÓW,Dom,Lampa,4.0,129,0.1,,delivered,6.0
+1015,2026-08-25,C027,Wrocław,Dom,Poduszka,1.0,59,0.0,przelew,shipped,2.0
+1016,2026-08-31,C035,KRAKÓW,Sport,Mata do jogi,5.0,89,0.0,Karta,delivered,4.0
+1017,2026-02-12,C036,Gdańsk,Dom,Kubek,1.0,29,0.1,karta,delivered,4.0
+1018,2026-07-18,C009,wrocław ,Elektronika,Słuchawki,3.0,199,0.0,,returned,5.0
+1019,03/07/2026,C036,wrocław ,Dom,Kubek,5.0,29,0.0,Karta,delivered,1.0
+1020,2026-07-21,C030,wrocław ,Dom,Kubek,3.0,29,0.1,BLIK,returned,3.0
+1021,12/09/2026,C027,Kraków,Sport,Hantle,5.0,159,0.05,karta,delivered,4.0
+1022,2026-07-19,C041,wrocław ,Dom,Lampa,4.0,129,0.2,Karta,delivered,1.0
+1023,20/10/2026,C014,wrocław ,Sport,Bidon,3.0,39,0.0,,delivered,6.0
+1024,2026-03-02,C058,Warszawa,Książki,Powieść,3.0,45,0.2,,delivered,2.0
+1025,2026-03-31,C027,wrocław ,Sport,Mata do jogi,5.0,89,0.2,,delivered,7.0
+1026,2026-05-21,C019,Kraków,Elektronika,Klawiatura,4.0,149,0.2,karta,shipped,6.0
+1027,2026-01-02,C057,Wrocław,Dom,Lampa,1.0,129,0.2,karta,shipped,2.0
+1028,2026-08-04,C053,Kraków,Dom,Kubek,2.0,29,0.0,,delivered,4.0
+1029,2026-10-08,C001,Kraków,Dom,Lampa,1.0,129,0.2,karta,delivered,4.0
+1030,2026-08-18,C035,Poznań,Książki,Poradnik,5.0,55,0.0,Karta,cancelled,1.0
+1031,2026-06-20,C056, poznań,Dom,Lampa,2.0,129,0.05,Karta,delivered,7.0
+1032,16/10/2026,C056,,Sport,Mata do jogi,3.0,89,0.2,karta,shipped,1.0
+1033,2026-01-02,C058,wrocław ,Sport,Hantle,5.0,159,0.0,przelew,delivered,6.0
+1034,2026-07-19,C007,Kraków,Książki,Powieść,4.0,45,0.0,przelew,shipped,5.0
+1035,2026-08-15,C037,Wrocław,Książki,Poradnik,2.0,55,0.0,Karta,returned,7.0
+1036,2026-06-09,C015, poznań,Dom,Kubek,4.0,29,0.2,karta,cancelled,1.0
+1037,2026-04-18,C009,Kraków,Dom,Kubek,2.0,29,0.2,,delivered,2.0
+1038,2026-06-23,C010,Warszawa,Elektronika,Słuchawki,,"199,00 zł",0.0,karta,cancelled,1.0
+1039,2026-06-04,C041,Poznań,Dom,Kubek,2.0,29,0.1,,cancelled,6.0
+1040,2026-05-28,C011,wrocław ,Sport,Mata do jogi,2.0,89,0.2,przelew,delivered,1.0
+1041,2026-10-05,C032,Wrocław,Elektronika,Klawiatura,5.0,"149,00 zł",0.0,,shipped,1.0
+1042,2026-08-29,C055,Kraków,Książki,Poradnik,5.0,55,0.05,Karta,delivered,6.0
+1043,2026-09-05,C033, poznań,Sport,Mata do jogi,5.0,89,0.1,BLIK,shipped,5.0
+1044,2026-01-19,C009,wrocław ,Elektronika,Słuchawki,3.0,199,0.0,BLIK,delivered,3.0
+1045,2026-05-11,C023,wrocław ,Sport,Mata do jogi,,89,0.1,,cancelled,4.0
+1046,2026-05-19,C033,KRAKÓW,Książki,Powieść,4.0,45,0.05,przelew,shipped,5.0
+1047,2026-02-23,C045,Warszawa,Elektronika,Słuchawki,4.0,199,0.2,karta,returned,5.0
+1048,06/07/2026,C044,Warszawa,Sport,Mata do jogi,5.0,89,0.2,,delivered,6.0
+1049,2026-05-14,C047, poznań,Dom,Kubek,5.0,29,0.1,przelew,delivered,1.0
+1050,2026-02-20,C011,Wrocław,Sport,Hantle,3.0,159,0.1,przelew,shipped,6.0
+1051,2026-06-05,C030,wrocław ,Książki,Poradnik,5.0,55,0.1,karta,shipped,1.0
+1052,2026-08-07,C026,wrocław ,Dom,Kubek,4.0,29,0.1,,cancelled,6.0
+1053,2026-08-27,C022,Kraków,Sport,Mata do jogi,-1.0,89,0.0,,delivered,4.0
+1054,2026-02-08,C044, poznań,Sport,Hantle,5.0,159,0.05,przelew,delivered,3.0
+1055,2026-01-02,C044,KRAKÓW,Sport,Bidon,1.0,39,0.2,Karta,delivered,1.0
+1056,10/01/2026,C042,Wrocław,Dom,Kubek,3.0,29,0.0,BLIK,returned,4.0
+1057,2026-01-04,C019,Gdańsk,Dom,Kubek,4.0,29,0.0,,delivered,
+1058,2026-08-22,C051,Gdańsk,Sport,Mata do jogi,5.0,89,0.0,Karta,delivered,1.0
+1059,2026-09-17,C002,KRAKÓW,Sport,Bidon,1.0,39,0.1,karta,delivered,7.0
+1060,30/09/2026,C003,wrocław ,Dom,Kubek,1.0,29,0.2,,returned,2.0
+1061,2026-03-15,C004, poznań,Dom,Poduszka,5.0,59,0.2,Karta,cancelled,6.0
+1062,2026-05-17,C013,Gdańsk,Dom,Lampa,3.0,129,0.05,Karta,delivered,6.0
+1063,2026-09-01,C045,Wrocław,Dom,Lampa,2.0,129,0.05,,shipped,5.0
+1064,22/01/2026,C037,wrocław ,Sport,Mata do jogi,5.0,89,0.0,karta,delivered,1.0
+1065,2026-04-23,C059,Warszawa,Książki,Powieść,4.0,45,0.2,przelew,delivered,2.0
+1066,2026-06-12,C019,Warszawa,Elektronika,Monitor,4.0,899,0.0,,delivered,2.0
+1067,2026-07-27,C025,wrocław ,Dom,Kubek,,29,0.2,BLIK,delivered,3.0
+1068,2026-08-24,C037, poznań,Sport,Hantle,3.0,159,0.2,BLIK,returned,5.0
+1069,2026-10-04,C003,KRAKÓW,Sport,Mata do jogi,3.0,89,0.0,przelew,delivered,4.0
+1070,2026-06-14,C039,Warszawa,Sport,Bidon,2.0,39,0.0,przelew,delivered,4.0
+1071,2026-06-07,C022,Poznań,Sport,Hantle,4.0,159,0.0,,cancelled,4.0
+1072,2026-03-22,C048,Warszawa,Sport,Hantle,5.0,159,0.0,karta,delivered,1.0
+1073,2026-09-04,C004,Warszawa,Książki,Poradnik,2.0,55,0.1,BLIK,delivered,6.0
+1074,2026-05-12,C050,KRAKÓW,Książki,Powieść,2.0,45,0.0,Karta,shipped,1.0
+1075,2026-05-31,C058,KRAKÓW,Sport,Hantle,4.0,159,0.1,Karta,delivered,5.0
+1076,05/10/2026,C039,,Książki,Powieść,2.0,45,0.0,karta,shipped,2.0
+1077,2026-10-04,C060,wrocław ,Dom,Poduszka,5.0,59,0.05,karta,delivered,4.0
+1078,2026-04-09,C005,,Książki,Powieść,3.0,45,0.2,karta,delivered,2.0
+1079,2026-10-10,C003,wrocław ,Elektronika,Monitor,2.0,899,0.2,przelew,shipped,4.0
+1080,2026-03-22,C015,Poznań,Elektronika,Słuchawki,4.0,199,0.0,Karta,cancelled,
+1081,2026-08-06,C022, poznań,Sport,Mata do jogi,2.0,89,0.0,przelew,delivered,6.0
+1082,2026-04-21,C031,Kraków,Sport,Bidon,3.0,39,0.0,BLIK,delivered,4.0
+1083,2026-06-05,C007, poznań,Książki,Poradnik,5.0,55,0.0,karta,delivered,3.0
+1084,2026-03-19,C002,Gdańsk,Dom,Lampa,3.0,129,0.0,przelew,delivered,1.0
+1085,2026-02-21,C043,Gdańsk,Dom,Lampa,5.0,129,0.2,przelew,returned,6.0
+1086,2026-06-04,C044,Warszawa,Sport,Bidon,,39,0.0,karta,delivered,6.0
+1087,2026-07-14,C034,KRAKÓW,Książki,Powieść,5.0,45,0.0,BLIK,cancelled,6.0
+1088,2026-07-11,C021,Kraków,Książki,Poradnik,1.0,55,0.2,przelew,cancelled,7.0
+1089,2026-04-08,C059,Wrocław,Książki,Powieść,4.0,"45,00 zł",0.0,przelew,delivered,6.0
+1090,14/05/2026,C050,Wrocław,Dom,Poduszka,2.0,"59,00 zł",0.0,karta,returned,5.0
+1091,2026-07-17,C047,Gdańsk,Książki,Poradnik,4.0,55,0.0,karta,returned,2.0
+1092,12/03/2026,C052, poznań,Elektronika,Klawiatura,3.0,149,0.05,karta,shipped,3.0
+1093,2026-07-03,C041,KRAKÓW,Sport,Bidon,5.0,39,0.1,,returned,3.0
+1094,2026-05-15,C024,Warszawa,Sport,Hantle,5.0,159,0.1,karta,shipped,3.0
+1095,2026-05-08,C049,Gdańsk,Dom,Poduszka,2.0,59,0.05,karta,delivered,5.0
+1096,2026-09-14,C043,Wrocław,Elektronika,Monitor,2.0,899,0.0,przelew,delivered,1.0
+1097,2026-01-25,C005,Warszawa,Elektronika,Klawiatura,1.0,149,0.2,Karta,cancelled,3.0
+1098,2026-09-24,C058,Warszawa,Dom,Kubek,3.0,29,0.0,,delivered,2.0
+1099,2026-09-25,C055, poznań,Sport,Mata do jogi,4.0,89,0.05,Karta,delivered,3.0
+1100,2026-03-31,C020,Kraków,Książki,Powieść,,45,0.0,przelew,delivered,6.0
+1101,2026-07-10,C027, poznań,Sport,Bidon,5.0,39,0.0,,shipped,7.0
+1102,2026-05-22,C012,Kraków,Dom,Poduszka,1.0,59,0.0,,cancelled,4.0
+1103,2026-02-11,C003,Gdańsk,Książki,Powieść,500.0,"45,00 zł",0.0,BLIK,delivered,1.0
+1104,2026-03-21,C031,Wrocław,Książki,Powieść,1.0,45,0.05,BLIK,shipped,1.0
+1105,2026-05-15,C013,KRAKÓW,Książki,Poradnik,2.0,55,0.0,karta,delivered,1.0
+1106,2026-02-18,C001,Kraków,Dom,Poduszka,3.0,59,0.0,przelew,delivered,6.0
+1107,2026-06-08,C016,Warszawa,Dom,Poduszka,2.0,59,0.2,Karta,delivered,2.0
+1108,16/03/2026,C056,KRAKÓW,Sport,Mata do jogi,3.0,89,0.0,karta,delivered,1.0
+1109,07/01/2026,C056, poznań,Dom,Lampa,1.0,"129,00 zł",0.0,karta,shipped,5.0
+1110,2026-01-27,C035,Gdańsk,Dom,Lampa,5.0,"129,00 zł",0.0,,delivered,5.0
+1111,2026-09-27,C047,Kraków,Dom,Lampa,2.0,129,0.05,przelew,returned,5.0
+1112,2026-01-24,C022,wrocław ,Książki,Poradnik,2.0,55,0.0,Karta,delivered,2.0
+1113,10/07/2026,C020,Poznań,Sport,Hantle,1.0,159,0.0,karta,shipped,
+1114,2026-09-11,C043,Poznań,Sport,Bidon,2.0,39,0.0,przelew,delivered,1.0
+1115,2026-07-21,C042,Poznań,Książki,Powieść,3.0,45,0.0,karta,returned,1.0
+1116,2026-06-23,C036,Warszawa,Sport,Bidon,5.0,39,0.0,przelew,delivered,5.0
+1117,2026-08-05,C004,wrocław ,Elektronika,Słuchawki,2.0,199,0.2,,delivered,1.0
+1118,2026-02-16,C014,Poznań,Elektronika,Klawiatura,2.0,149,0.0,przelew,delivered,3.0
+1119,2026-06-09,C044,Kraków,Książki,Poradnik,4.0,55,0.0,przelew,returned,4.0
+1120,2026-01-11,C048,KRAKÓW,Książki,Powieść,3.0,"45,00 zł",0.1,,delivered,3.0
+1121,2026-05-21,C009,Kraków,Elektronika,Monitor,1.0,899,0.2,,returned,7.0
+1122,2026-04-13,C029,Gdańsk,Elektronika,Słuchawki,5.0,199,0.0,przelew,delivered,6.0
+1123,2026-06-10,C047,KRAKÓW,Sport,Bidon,1.0,39,0.1,,cancelled,6.0
+1124,2026-01-01,C013,KRAKÓW,Sport,Mata do jogi,1.0,89,0.2,BLIK,cancelled,6.0
+1125,2026-07-08,C024,Kraków,Książki,Poradnik,4.0,55,0.0,przelew,delivered,
+1126,2026-06-01,C029,Kraków,Sport,Bidon,2.0,39,0.1,karta,delivered,2.0
+1127,2026-01-15,C021,Gdańsk,Dom,Poduszka,2.0,"59,00 zł",0.0,Karta,delivered,7.0
+1128,2026-05-24,C013,KRAKÓW,Dom,Lampa,3.0,129,0.0,BLIK,delivered,1.0
+1129,2026-01-27,C058,Gdańsk,Elektronika,Klawiatura,3.0,149,0.0,BLIK,delivered,3.0
+1130,2026-04-01,C053,Wrocław,Dom,Poduszka,5.0,59,0.0,,delivered,1.0
+1131,2026-10-10,C019,KRAKÓW,Dom,Lampa,1.0,129,0.1,Karta,delivered,4.0
+1132,2026-01-25,C016,Wrocław,Sport,Mata do jogi,5.0,89,0.05,Karta,shipped,3.0
+1133,2026-09-08,C025,Wrocław,Książki,Powieść,4.0,45,0.05,,delivered,1.0
+1134,2026-08-07,C007,wrocław ,Elektronika,Monitor,5.0,899,0.05,przelew,delivered,4.0
+1135,2026-09-21,C043,Warszawa,Elektronika,Słuchawki,5.0,199,0.05,przelew,shipped,2.0
+1136,2026-03-30,C010,Wrocław,Dom,Lampa,5.0,129,0.0,przelew,delivered,4.0
+1137,2026-04-28,C033,Kraków,Dom,Kubek,1.0,29,0.0,,delivered,4.0
+1138,2026-02-14,C010, poznań,Książki,Poradnik,2.0,55,0.2,karta,delivered,1.0
+1139,2026-01-01,C020,Wrocław,Elektronika,Monitor,3.0,899,0.05,przelew,delivered,2.0
+1140,2026-02-12,C050,Kraków,Książki,Poradnik,3.0,55,0.1,,shipped,3.0
+1141,2026-10-07,C021,Gdańsk,Sport,Mata do jogi,4.0,89,0.05,Karta,cancelled,2.0
+1142,2026-06-09,C027,Poznań,Elektronika,Monitor,1.0,899,0.0,BLIK,cancelled,1.0
+1143,2026-08-28,C008,Poznań,Dom,Kubek,4.0,29,0.0,,delivered,3.0
+1144,2026-08-04,C028,Gdańsk,Dom,Poduszka,3.0,59,0.05,,delivered,3.0
+1145,2026-01-28,C041,Warszawa,Sport,Mata do jogi,1.0,89,0.0,,shipped,6.0
+1146,2026-05-16,C032,wrocław ,Dom,Poduszka,2.0,59,0.1,BLIK,shipped,6.0
+1147,2026-09-26,C034,Warszawa,Dom,Kubek,3.0,29,0.0,przelew,delivered,5.0
+1148,2026-07-28,C025,Kraków,Dom,Kubek,1.0,"29,00 zł",0.0,Karta,delivered,5.0
+1149,2026-04-02,C002,Poznań,Sport,Hantle,1.0,159,0.2,,shipped,2.0
+1150,2026-02-21,C008,Poznań,Książki,Poradnik,1.0,55,0.0,Karta,returned,7.0
+1151,2026-10-16,C033,Poznań,Sport,Mata do jogi,5.0,89,0.1,BLIK,delivered,5.0
+1152,2026-08-04,C059,KRAKÓW,Elektronika,Słuchawki,4.0,"199,00 zł",0.05,przelew,shipped,7.0
+1153,2026-04-19,C027,Poznań,Książki,Poradnik,5.0,55,0.2,przelew,shipped,4.0
+1154,2026-09-01,C021,KRAKÓW,Dom,Kubek,5.0,29,0.0,,returned,7.0
+1155,2026-10-27,C046,Wrocław,Elektronika,Monitor,3.0,899,0.1,BLIK,delivered,5.0
+1156,2026-04-02,C016,Kraków,Sport,Mata do jogi,3.0,89,0.05,,delivered,7.0
+1157,2026-04-20,C001,KRAKÓW,Sport,Mata do jogi,4.0,89,0.0,karta,shipped,6.0
+1158,2026-02-04,C024,Kraków,Sport,Mata do jogi,-1.0,89,0.0,przelew,delivered,5.0
+1159,28/03/2026,C059, poznań,Książki,Poradnik,1.0,55,0.0,BLIK,delivered,7.0
+1160,2026-05-16,C007,Warszawa,Elektronika,Klawiatura,1.0,149,0.05,przelew,delivered,4.0
+1161,2026-08-27,C040,Wrocław,Dom,Poduszka,5.0,59,0.0,karta,shipped,6.0
+1162,2026-04-07,C020,wrocław ,Elektronika,Monitor,3.0,"899,00 zł",0.0,Karta,shipped,3.0
+1163,2026-07-24,C050, poznań,Dom,Poduszka,3.0,59,0.0,Karta,shipped,6.0
+1164,2026-03-08,C054,Warszawa,Elektronika,Klawiatura,5.0,"149,00 zł",0.0,karta,delivered,4.0
+1165,03/06/2026,C004,Wrocław,Dom,Lampa,3.0,129,0.0,karta,delivered,5.0
+1166,2026-04-13,C011,Wrocław,Sport,Bidon,5.0,39,0.05,przelew,delivered,6.0
+1167,2026-05-08,C024,Warszawa,Elektronika,Słuchawki,2.0,199,0.0,przelew,delivered,6.0
+1168,2026-04-03,C023,Gdańsk,Sport,Hantle,2.0,159,0.2,karta,shipped,1.0
+1169,2026-02-18,C011,Wrocław,Dom,Lampa,2.0,129,0.2,karta,returned,5.0
+1170,2026-10-03,C024, poznań,Elektronika,Klawiatura,5.0,149,0.0,karta,delivered,2.0
+1171,2026-10-11,C018,Wrocław,Dom,Kubek,3.0,29,0.0,,delivered,5.0
+1172,2026-06-09,C003,Kraków,Dom,Lampa,3.0,129,0.0,przelew,delivered,6.0
+1173,2026-04-15,C034,Poznań,Elektronika,Monitor,2.0,899,0.0,BLIK,delivered,4.0
+1174,11/09/2026,C004,Wrocław,Sport,Bidon,2.0,39,0.1,Karta,cancelled,2.0
+1175,2026-01-29,C029,Poznań,Książki,Poradnik,5.0,"55,00 zł",0.0,BLIK,delivered,5.0
+1176,2026-04-01,C041, poznań,Dom,Lampa,1.0,129,0.0,przelew,delivered,2.0
+1177,2026-07-15,C052,,Elektronika,Słuchawki,2.0,"199,00 zł",0.05,BLIK,delivered,2.0
+1178,2026-05-06,C013,Wrocław,Książki,Poradnik,5.0,"55,00 zł",0.1,karta,delivered,1.0
+1179,2026-05-03,C008, poznań,Dom,Kubek,4.0,29,0.1,przelew,delivered,7.0
+1180,2026-03-04,C025,KRAKÓW,Dom,Lampa,,129,0.2,,returned,2.0
+1181,2026-04-08,C030,Kraków,Książki,Poradnik,5.0,55,0.1,BLIK,cancelled,5.0
+1182,2026-07-16,C020, poznań,Dom,Lampa,1.0,129,0.0,przelew,delivered,3.0
+1183,2026-05-12,C026,KRAKÓW,Sport,Hantle,5.0,159,0.1,BLIK,shipped,3.0
+1184,2026-10-18,C035,Kraków,Dom,Kubek,4.0,29,0.0,BLIK,returned,3.0
+1185,2026-06-09,C006,Warszawa,Elektronika,Klawiatura,4.0,149,0.2,BLIK,cancelled,4.0
+1186,2026-06-09,C016, poznań,Książki,Poradnik,5.0,55,0.0,Karta,returned,1.0
+1187,2026-09-12,C024, poznań,Sport,Bidon,3.0,"39,00 zł",0.05,karta,returned,5.0
+1188,2026-01-25,C002,wrocław ,Książki,Poradnik,5.0,55,0.0,przelew,delivered,1.0
+1189,2026-10-08,C020, poznań,Sport,Bidon,2.0,39,0.0,BLIK,shipped,2.0
+1190,2026-02-14,C030,wrocław ,Dom,Poduszka,5.0,59,0.1,,cancelled,2.0
+1191,2026-10-16,C053,Wrocław,Książki,Poradnik,1.0,55,0.05,przelew,delivered,4.0
+1192,2026-08-07,C037, poznań,Sport,Bidon,2.0,39,0.0,karta,cancelled,6.0
+1193,2026-01-21,C018,Gdańsk,Elektronika,Monitor,5.0,"899,00 zł",0.2,przelew,delivered,4.0
+1194,2026-06-23,C010,Wrocław,Dom,Poduszka,2.0,59,0.0,karta,delivered,4.0
+1195,2026-10-07,C013,Warszawa,Książki,Poradnik,1.0,55,0.0,karta,delivered,7.0
+1196,2026-03-09,C049,wrocław ,Elektronika,Klawiatura,,149,0.2,,cancelled,5.0
+1197,10/02/2026,C026,wrocław ,Dom,Kubek,3.0,29,0.0,,delivered,1.0
+1198,2026-06-13,C019,KRAKÓW,Elektronika,Monitor,1.0,899,0.1,,returned,1.0
+1199,2026-01-02,C051,Gdańsk,Dom,Lampa,3.0,129,0.2,przelew,shipped,3.0
+1200,2026-10-24,C004,Kraków,Książki,Powieść,2.0,45,0.05,BLIK,delivered,7.0
+1201,2026-07-22,C053,Warszawa,Elektronika,Słuchawki,5.0,199,0.05,,delivered,7.0
+1202,2026-10-04,C048,KRAKÓW,Sport,Mata do jogi,3.0,89,0.0,,delivered,5.0
+1203,2026-05-17,C028,Kraków,Książki,Powieść,2.0,45,0.0,karta,shipped,1.0
+1204,2026-08-06,C027,Poznań,Sport,Bidon,4.0,"39,00 zł",0.0,karta,cancelled,2.0
+1205,2026-09-03,C014,Gdańsk,Dom,Poduszka,5.0,59,0.0,BLIK,delivered,1.0
+1206,2026-10-07,C004,wrocław ,Dom,Lampa,3.0,129,0.0,przelew,delivered,5.0
+1207,2026-06-02,C049,Gdańsk,Książki,Powieść,5.0,45,0.0,BLIK,delivered,1.0
+1208,2026-05-03,C027,Poznań,Dom,Lampa,2.0,129,0.0,przelew,delivered,2.0
+1209,2026-02-25,C040,wrocław ,Sport,Mata do jogi,3.0,89,0.1,Karta,returned,2.0
+1210,2026-08-17,C012,Warszawa,Sport,Bidon,3.0,39,0.0,przelew,returned,4.0
+1211,2026-01-30,C030, poznań,Dom,Poduszka,3.0,"59,00 zł",0.1,przelew,delivered,2.0
+1212,2026-07-03,C004,Wrocław,Sport,Hantle,3.0,159,0.0,przelew,shipped,1.0
+1213,2026-08-04,C039, poznań,Książki,Poradnik,,55,0.0,,shipped,5.0
+1214,2026-05-11,C040, poznań,Dom,Kubek,5.0,29,0.05,przelew,delivered,6.0
+1215,2026-01-14,C045,Warszawa,Dom,Kubek,2.0,29,0.0,karta,delivered,2.0
+1216,2026-02-04,C045,Gdańsk,Dom,Kubek,,29,0.0,,cancelled,2.0
+1217,2026-04-29,C018,wrocław ,Dom,Lampa,5.0,129,0.0,Karta,cancelled,2.0
+1218,2026-08-25,C029,KRAKÓW,Książki,Powieść,2.0,45,0.0,karta,shipped,4.0
+1219,2026-02-14,C005,wrocław ,Książki,Poradnik,4.0,55,0.0,,delivered,4.0
+1220,2026-03-25,C015,wrocław ,Dom,Poduszka,1.0,59,0.0,BLIK,shipped,2.0
+1221,2026-02-22,C019,Kraków,Książki,Poradnik,1.0,55,0.1,BLIK,cancelled,3.0
+1222,2026-06-11,C046,Kraków,Książki,Powieść,3.0,45,0.0,,delivered,7.0
+1223,2026-05-13,C054,Warszawa,Dom,Kubek,4.0,29,0.1,karta,shipped,1.0
+1224,2026-05-21,C030,KRAKÓW,Sport,Hantle,3.0,159,0.05,,returned,1.0
+1225,2026-03-01,C048,Poznań,Sport,Mata do jogi,5.0,89,0.0,,delivered,3.0
+1226,2026-08-13,C017,Gdańsk,Elektronika,Klawiatura,5.0,149,0.2,przelew,delivered,3.0
+1227,09/03/2026,C012,,Elektronika,Słuchawki,5.0,199,0.0,,delivered,5.0
+1228,2026-08-10,C011, poznań,Sport,Mata do jogi,2.0,89,0.1,karta,delivered,5.0
+1229,2026-05-07,C015,Kraków,Książki,Poradnik,5.0,55,0.0,przelew,returned,4.0
+1230,2026-08-21,C047,Warszawa,Sport,Mata do jogi,2.0,89,0.2,BLIK,shipped,1.0
+1231,20/04/2026,C060,wrocław ,Sport,Hantle,2.0,159,0.1,,shipped,1.0
+1232,2026-04-12,C045,wrocław ,Elektronika,Klawiatura,1.0,149,0.05,przelew,delivered,4.0
+1233,2026-06-07,C039,wrocław ,Sport,Bidon,-1.0,39,0.05,przelew,delivered,7.0
+1234,2026-10-25,C044, poznań,Elektronika,Słuchawki,1.0,199,0.0,BLIK,delivered,2.0
+1235,2026-03-13,C018,wrocław ,Dom,Kubek,5.0,29,0.05,BLIK,delivered,2.0
+1236,2026-03-24,C009,Warszawa,Elektronika,Słuchawki,3.0,199,0.0,,delivered,3.0
+1237,2026-01-26,C010,KRAKÓW,Dom,Lampa,,129,0.0,,delivered,6.0
+1238,22/01/2026,C014,Poznań,Elektronika,Monitor,5.0,899,0.0,Karta,delivered,6.0
+1239,2026-02-06,C047,Wrocław,Sport,Mata do jogi,4.0,89,0.0,,delivered,4.0
+1240,2026-01-14,C050,Warszawa,Książki,Poradnik,2.0,55,0.2,BLIK,delivered,4.0
+1241,2026-06-01,C035,Poznań,Sport,Hantle,4.0,159,0.1,BLIK,shipped,6.0
+1242,2026-03-17,C032,Kraków,Dom,Poduszka,4.0,59,0.0,Karta,cancelled,7.0
+1243,2026-04-28,C022,Gdańsk,Elektronika,Monitor,3.0,899,0.0,karta,delivered,3.0
+1244,2026-01-30,C018,Warszawa,Sport,Bidon,2.0,39,0.0,,cancelled,3.0
+1245,2026-03-04,C021,Kraków,Elektronika,Monitor,4.0,899,0.2,karta,delivered,2.0
+1246,2026-04-07,C034,KRAKÓW,Książki,Poradnik,1.0,55,0.1,,shipped,1.0
+1247,05/05/2026,C057,Kraków,Książki,Powieść,4.0,45,0.05,,delivered,6.0
+1248,2026-03-31,C013,KRAKÓW,Sport,Bidon,4.0,39,0.1,BLIK,delivered,1.0
+1249,2026-05-13,C043,Kraków,Dom,Poduszka,4.0,59,0.0,przelew,delivered,4.0
+1250,2026-04-04,C013,Poznań,Elektronika,Klawiatura,5.0,149,0.2,przelew,delivered,1.0
+1251,2026-02-20,C055,Poznań,Dom,Poduszka,2.0,59,0.0,BLIK,delivered,1.0
+1252,2026-04-25,C005,Wrocław,Elektronika,Słuchawki,1.0,199,0.05,,shipped,5.0
+1253,2026-01-12,C038,Kraków,Elektronika,Monitor,4.0,899,0.2,Karta,delivered,4.0
+1254,2026-02-20,C029,KRAKÓW,Sport,Hantle,4.0,159,0.0,karta,shipped,2.0
+1255,2026-07-26,C020,Gdańsk,Książki,Poradnik,5.0,"55,00 zł",0.2,Karta,delivered,3.0
+1256,2026-05-16,C042,Wrocław,Książki,Powieść,2.0,45,0.0,BLIK,delivered,4.0
+1257,2026-05-14,C037, poznań,Dom,Kubek,1.0,29,0.05,Karta,delivered,5.0
+1258,2026-08-14,C027,KRAKÓW,Sport,Mata do jogi,1.0,89,0.0,przelew,cancelled,6.0
+1259,2026-09-11,C050,Wrocław,Książki,Powieść,4.0,45,0.05,przelew,delivered,5.0
+1260,2026-10-06,C030,Gdańsk,Sport,Bidon,4.0,39,0.0,karta,delivered,4.0
+1261,2026-06-04,C056,Warszawa,Sport,Hantle,3.0,159,0.05,przelew,delivered,2.0
+1262,13/02/2026,C006,Gdańsk,Dom,Lampa,3.0,129,0.05,Karta,shipped,1.0
+1263,2026-10-20,C010, poznań,Elektronika,Klawiatura,1.0,149,0.0,BLIK,delivered,5.0
+1264,2026-03-28,C046,wrocław ,Dom,Kubek,5.0,29,0.0,Karta,delivered,6.0
+1265,2026-08-31,C014,Kraków,Dom,Poduszka,2.0,59,0.05,przelew,shipped,7.0
+1266,2026-02-02,C032,Gdańsk,Elektronika,Monitor,5.0,899,0.0,BLIK,delivered,4.0
+1267,2026-03-09,C019,wrocław ,Sport,Bidon,,39,0.2,,delivered,6.0
+1268,2026-01-12,C020,Wrocław,Książki,Powieść,3.0,45,0.05,Karta,delivered,3.0
+1269,2026-08-31,C021,Warszawa,Sport,Bidon,1.0,39,0.05,,returned,4.0
+1270,2026-02-01,C046,wrocław ,Elektronika,Słuchawki,1.0,199,0.0,karta,delivered,5.0
+1271,26/07/2026,C004,,Książki,Powieść,3.0,"45,00 zł",0.0,,delivered,
+1272,2026-03-10,C027,KRAKÓW,Sport,Hantle,1.0,159,0.05,,delivered,1.0
+1273,2026-06-28,C055,Gdańsk,Sport,Mata do jogi,1.0,89,0.1,Karta,delivered,6.0
+1274,2026-10-15,C058,Warszawa,Elektronika,Klawiatura,2.0,149,0.1,BLIK,shipped,2.0
+1275,2026-02-01,C022,Kraków,Sport,Mata do jogi,1.0,89,0.05,Karta,delivered,5.0
+1276,2026-06-06,C049,Wrocław,Sport,Bidon,1.0,39,0.05,Karta,shipped,2.0
+1277,2026-09-17,C014,wrocław ,Elektronika,Słuchawki,,199,0.0,,delivered,7.0
+1278,02/07/2026,C056,Kraków,Dom,Lampa,5.0,129,0.05,karta,cancelled,6.0
+1279,2026-02-28,C055,wrocław ,Sport,Bidon,3.0,"39,00 zł",0.0,,delivered,5.0
+1280,2026-05-25,C026,Warszawa,Książki,Poradnik,1.0,55,0.1,karta,shipped,6.0
+1281,2026-06-07,C029,,Elektronika,Monitor,2.0,899,0.0,Karta,delivered,3.0
+1282,2026-04-24,C014,Warszawa,Książki,Powieść,5.0,45,0.0,BLIK,returned,7.0
+1283,2026-03-01,C052,Warszawa,Sport,Hantle,4.0,159,0.0,BLIK,delivered,5.0
+1284,12/06/2026,C010,Gdańsk,Sport,Bidon,4.0,39,0.0,karta,delivered,4.0
+1285,2026-02-12,C018,Wrocław,Książki,Poradnik,5.0,55,0.0,,delivered,4.0
+1286,2026-03-17,C040,Kraków,Książki,Poradnik,5.0,55,0.0,karta,delivered,2.0
+1287,2026-02-09,C003,KRAKÓW,Elektronika,Monitor,1.0,899,0.1,przelew,delivered,4.0
+1288,2026-05-08,C002,Kraków,Dom,Lampa,2.0,129,0.1,karta,delivered,1.0
+1289,2026-04-11,C028,Poznań,Dom,Lampa,5.0,129,0.2,przelew,delivered,5.0
+1290,2026-07-09,C031,Poznań,Elektronika,Słuchawki,3.0,199,0.0,Karta,cancelled,7.0
+1291,2026-10-21,C037, poznań,Dom,Lampa,2.0,129,0.05,Karta,delivered,7.0
+1292,2026-08-10,C003, poznań,Książki,Poradnik,3.0,55,0.1,BLIK,delivered,7.0
+1293,2026-01-24,C028,Warszawa,Elektronika,Słuchawki,2.0,199,0.0,,delivered,4.0
+1294,2026-03-04,C004, poznań,Elektronika,Słuchawki,2.0,199,0.0,karta,delivered,3.0
+1295,2026-08-08,C031, poznań,Elektronika,Monitor,2.0,899,0.1,,delivered,4.0
+1296,2026-05-05,C052,Kraków,Elektronika,Słuchawki,3.0,199,0.0,karta,shipped,3.0
+1297,2026-05-01,C024,Gdańsk,Elektronika,Słuchawki,4.0,199,0.05,Karta,delivered,2.0
+1298,2026-05-01,C021,KRAKÓW,Sport,Hantle,3.0,159,0.0,,delivered,5.0
+1299,2026-01-13,C055,Gdańsk,Dom,Lampa,1.0,129,0.05,karta,returned,2.0
+1189,2026-10-08,C020, poznań,Sport,Bidon,2.0,39,0.0,BLIK,shipped,2.0
+1123,2026-06-10,C047,KRAKÓW,Sport,Bidon,1.0,39,0.1,,cancelled,6.0
+1185,2026-06-09,C006,Warszawa,Elektronika,Klawiatura,4.0,149,0.2,BLIK,cancelled,4.0
+1213,2026-08-04,C039, poznań,Książki,Poradnik,,55,0.0,,shipped,5.0
+1106,2026-02-18,C001,Kraków,Dom,Poduszka,3.0,59,0.0,przelew,delivered,6.0
+1127,2026-01-15,C021,Gdańsk,Dom,Poduszka,2.0,"59,00 zł",0.0,Karta,delivered,7.0
+1176,2026-04-01,C041, poznań,Dom,Lampa,1.0,129,0.0,przelew,delivered,2.0
+1073,2026-09-04,C004,Warszawa,Książki,Poradnik,2.0,55,0.1,BLIK,delivered,6.0
